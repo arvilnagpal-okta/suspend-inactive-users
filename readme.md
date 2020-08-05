@@ -1,10 +1,7 @@
+## Inactivity-based Suspension
 
 
-
-# Inactivity-based Suspension
-
-
-## <span style="text-decoration:underline;">Overview</span>
+### <span style="text-decoration:underline;">Overview</span>
 
 In many organizations, access tends to proliferate for far longer than certain users require it. Maybe you’re working with a contractor who needs access to a single app, or offboarding policies break down for an ex-employee. All of a sudden, you realize that the user hasn’t logged in for months, and as part of a strong security posture, would like to suspend them until you’re notified that they do actually need access. 
 
