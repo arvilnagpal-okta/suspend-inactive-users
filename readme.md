@@ -7,7 +7,8 @@ In many organizations, access tends to proliferate for far longer than certain u
 
 This flow reads all active users in your environment, and if they haven’t logged in within the past 6 months (180 days), suspends them.   
 
-<span style="text-decoration:underline;">Before you get Started / Prerequisites</span>
+
+### <span style="text-decoration:underline;">Before you get Started / Prerequisites</span>
 
 Before you get started, you will need:
 
@@ -17,9 +18,8 @@ Before you get started, you will need:
 *   Active users
 *   One of the active users needs to have not logged in for the past 180 days; if you don’t have a user with “inactivity”, you can simply edit the flow for a different date range
 
-<span style="text-decoration:underline;">Setup Steps</span>
 
-This is where you put the step-by-step instructions for how someone might set up this flow. 
+### <span style="text-decoration:underline;">Setup Steps</span>
 
 
 
@@ -30,9 +30,8 @@ This is where you put the step-by-step instructions for how someone might set up
     3. Scroll to the right, and make sure a connection is selected for “Okta - Suspend User”. 
 3. Turn both the parent and child flow on. 
 
-<span style="text-decoration:underline;">Testing this Flow</span>
 
-This is how a builder might test the flow. Here’s what it will look like when it’s working. 
+### <span style="text-decoration:underline;">Testing this Flow</span>
 
 
 
@@ -41,7 +40,8 @@ This is how a builder might test the flow. Here’s what it will look like when 
 2. Go to the child flow and select Flow History. You should see an execution for each user in your org. 
 3. For those Okta users that you expected to be suspended (e.g. they hadn’t logged in for longer than 180 days), go to your Okta console and confirm that they are suspended. 
 
-<span style="text-decoration:underline;">Limitations & Known Issues</span>
+
+### <span style="text-decoration:underline;">Limitations & Known Issues</span>
 
 
 
