@@ -45,4 +45,5 @@ Before you get started, you will need:
 
 
 
+*   If you have a user that has never logged in (LastLogin = null), then the flow will fail. If you’d like to skip errors, you can replace the “List For Each” with “List For Each - Ignore Errors”. 
 *   If you have a large number of users (50k+), we’d highly recommend breaking your List Users call into multiple groups of users. That could be individual Groups (using List Group Members), or based on some type of unique category (like their office location). 
