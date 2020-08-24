@@ -16,7 +16,7 @@ Before you get started, you will need:
 
 *   Access to an Okta tenant with Okta Workflows enabled for your org 
 *   Active users
-*   One of the active users needs to have not logged in for the past 180 days; if you don’t have a user with “inactivity”, you can simply edit the flow for a different date range
+*   One of the active users needs to have not logged in for the past 180 days; if you don’t have a user with “inactivity”, you can simply edit the flow for a different date range (eg 5 minutes for a recently created user)
 
 
 ### <span style="text-decoration:underline;">Setup Steps</span>
